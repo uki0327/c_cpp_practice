@@ -13,8 +13,9 @@ int main() {
 	pt += 2;
 	printf("*pt = %d\n", *pt);
 	*pt = 88;
-	printf("*pt-1 = %d\n", *pt-1);
+	printf("*pt-1 = %d\n", *pt-1);	
 	*pt++;
+	printf("did *pt++");
 	printf("*pt = %d\n", *pt);
 	(*pt)++;
 	printf("(*pt)++ = %d\n", *pt);
